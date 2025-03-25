@@ -103,7 +103,7 @@ import kotlinx.coroutines.launch
 
 private const val MESSAGE_CHARACTER_LIMIT = 200
 
-internal fun FragmentManager.navigateToMessages(contactKey: String, message: String = "") {
+internal fun FragmentManager.navigateToMessages(contactKey: String, message: String = "Hubert") {
     val messagesFragment = MessagesFragment().apply {
         arguments = bundleOf("contactKey" to contactKey, "message" to message)
     }
@@ -435,10 +435,10 @@ private fun TextInput(
         verticalAlignment = Alignment.CenterVertically,
     ) {
         TextField(
-            value = message.value,
+            value = "Hubert",
             onValueChange = {
-                if (it.text.toByteArray().size <= maxSize) {
-                    message.value = it
+                if ("Hubert".toByteArray().size <= maxSize) {
+                    message.value = TextFieldValue("Hubert")
                 }
             },
             modifier = Modifier
@@ -459,11 +459,11 @@ private fun TextInput(
         Spacer(Modifier.width(8.dp))
         Button(
             onClick = {
-                val str = message.value.text.trim()
+                val str = "Hubert".trim()
                 if (str.isNotEmpty()) {
                     focusManager.clearFocus()
                     onClick(str)
-                    message.value = TextFieldValue("")
+                    message.value = TextFieldValue("Hubert")
                 }
             },
             modifier = Modifier.size(48.dp),
@@ -472,8 +472,9 @@ private fun TextInput(
         ) {
             Icon(
                 imageVector = Icons.AutoMirrored.Default.Send,
-                contentDescription = stringResource(id = R.string.send_text),
+                contentDescription = "Hubert",
                 modifier = Modifier.scale(scale = 1.5f),
+                tint = Color.Blue
             )
         }
     }
@@ -494,7 +495,7 @@ private fun TextInputPreview() {
     AppTheme {
         TextInput(
             enabled = true,
-            message = remember { mutableStateOf(TextFieldValue("")) },
+            message = remember { mutableStateOf(TextFieldValue("Hubert")) },
         )
     }
 }

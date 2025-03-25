@@ -30,10 +30,14 @@ import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.LinearLayout
 import android.widget.RadioButton
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
+import androidx.cardview.widget.CardView
+import androidx.compose.ui.graphics.Color
+import androidx.core.content.ContextCompat
 import androidx.core.widget.doAfterTextChanged
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.asLiveData
@@ -330,14 +334,38 @@ class SettingsFragment : ScreenFragment("Settings"), Logging {
     private var lastTapTime: Long = 0
 
     private fun addDeviceButton(device: BTScanModel.DeviceListEntry, enabled: Boolean) {
-        val b = RadioButton(requireActivity())
-        b.text = device.name
-        b.id = View.generateViewId()
-        b.isEnabled = enabled
-        b.isChecked = device.fullAddress == scanModel.selectedNotNull
-        binding.deviceRadioGroup.addView(b)
+        val context = requireActivity()
 
-        b.setOnClickListener {
+        // Create the RadioButton
+        val radioButton = RadioButton(context).apply {
+            text = device.name
+            id = View.generateViewId()
+            isEnabled = enabled
+            isChecked = device.fullAddress == scanModel.selectedNotNull
+            setPadding(16, 16, 16, 16)  // Optional extra padding inside RadioButton
+            //setBackgroundColor(ContextCompat.getColor(requireContext(), R.color.buttonColor))
+        }
+
+        // Create the CardView (Tile)
+        val cardView = CardView(context).apply {
+            radius = 16f  // Border radius 16dp
+            setCardBackgroundColor(ContextCompat.getColor(requireContext(), R.color.appintro_background_color))
+            cardElevation = 8f
+            setContentPadding(16, 16, 16, 16)  // Padding inside the CardView
+            layoutParams = LinearLayout.LayoutParams(
+                660,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            ).apply {
+                setMargins(0, 0, 0, 20)  // Add spacing between each tile
+            }
+            addView(radioButton)
+        }
+
+        // Add the CardView (with RadioButton inside) to the RadioGroup
+        binding.deviceRadioGroup.addView(cardView)
+
+        // Set Click listener
+        radioButton.setOnClickListener {
             if (device.fullAddress == "n") {
                 val currentTapTime = System.currentTimeMillis()
                 if (currentTapTime - lastTapTime > TAP_THRESHOLD) {
@@ -354,7 +382,7 @@ class SettingsFragment : ScreenFragment("Settings"), Logging {
             if (!device.bonded) { // If user just clicked on us, try to bond
                 binding.scanStatusText.setText(R.string.starting_pairing)
             }
-            b.isChecked = scanModel.onSelected(device)
+            radioButton.isChecked = scanModel.onSelected(device)
         }
     }
 

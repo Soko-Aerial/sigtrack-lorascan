@@ -54,11 +54,11 @@
                         android:layout_height="wrap_content"
                         android:contentDescription="@string/application_icon"
                         android:scaleType="center"
-                        android:scaleX="1.5"
-                        android:scaleY="1.5"
-                        app:srcCompat="@drawable/app_icon"
-                        tools:layout_editor_absoluteX="16dp"
-                        tools:layout_editor_absoluteY="18dp" />
+                        android:scaleX="2.0"
+                        android:scaleY="2.0"
+                        app:srcCompat="@drawable/loralogo"
+                        tools:layout_editor_absoluteX="30dp"
+                        tools:layout_editor_absoluteY="32dp" />
 
                     <TextView
                         android:id="@+id/title"
@@ -74,6 +74,21 @@
                 </com.google.android.material.appbar.MaterialToolbar>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- 🔥 Bottom Tab -->
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tab_layout"
                 android:layout_width="match_parent"
@@ -81,13 +96,8 @@
                 app:tabGravity="fill"
                 app:tabIconTint="@color/tab_color_selector"
                 app:tabIndicatorColor="@color/selectedColor" />
-        </com.google.android.material.appbar.AppBarLayout>
 
-        <androidx.viewpager2.widget.ViewPager2
-            android:id="@+id/pager"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+        </LinearLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <androidx.compose.ui.platform.ComposeView

@@ -74,7 +74,7 @@ data class Channel(
                 ModemPreset.SHORT_SLOW -> "ShortSlow"
                 ModemPreset.MEDIUM_FAST -> "MediumFast"
                 ModemPreset.MEDIUM_SLOW -> "MediumSlow"
-                ModemPreset.LONG_FAST -> "LongFast"
+                ModemPreset.LONG_FAST -> "LongSlow"
                 ModemPreset.LONG_SLOW -> "LongSlow"
                 ModemPreset.LONG_MODERATE -> "LongMod"
                 ModemPreset.VERY_LONG_SLOW -> "VLongSlow"

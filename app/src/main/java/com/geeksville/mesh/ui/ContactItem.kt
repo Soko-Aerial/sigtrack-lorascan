@@ -66,9 +66,9 @@ fun ContactItem(
         modifier = Modifier
             .background(color = if (selected) Color.Gray else MaterialTheme.colors.background)
             .fillMaxWidth()
-            .padding(horizontal = 8.dp, vertical = 6.dp),
-        elevation = 4.dp,
-        shape = RoundedCornerShape(12.dp),
+            .padding(horizontal = 8.dp, vertical = 10.dp),
+        elevation = 5.dp,
+        shape = RoundedCornerShape(18.dp),
     ) {
         Surface(
             modifier = modifier.combinedClickable(
@@ -86,7 +86,7 @@ fun ContactItem(
                     onClick = { },
                     modifier = Modifier
                         .padding(end = 8.dp)
-                        .width(72.dp),
+                        .width(80.dp),
                 ) {
                     Text(
                         text = shortName,
@@ -112,6 +112,16 @@ fun ContactItem(
                             color = MaterialTheme.colors.onSurface,
                             fontSize = MaterialTheme.typography.button.fontSize,
                         )
+                        AnimatedVisibility(visible = unreadCount > 0) {
+                            Text(
+                                text = unreadCount.toString(),
+                                modifier = Modifier
+                                    //.background(MaterialTheme.colors.primary, shape = CircleShape)
+                                    //.padding(horizontal = 6.dp, vertical = 3.dp),
+                                //color = MaterialTheme.colors.onPrimary,
+                                //style = MaterialTheme.typography.caption,
+                            )
+                        }
                     }
                     Row(
                         modifier = Modifier
@@ -134,16 +144,7 @@ fun ContactItem(
                                 contentDescription = null,
                             )
                         }
-                        AnimatedVisibility(visible = unreadCount > 0) {
-                            Text(
-                                text = unreadCount.toString(),
-                                modifier = Modifier
-                                    .background(MaterialTheme.colors.primary, shape = CircleShape)
-                                    .padding(horizontal = 6.dp, vertical = 3.dp),
-                                color = MaterialTheme.colors.onPrimary,
-                                style = MaterialTheme.typography.caption,
-                            )
-                        }
+
                     }
                 }
             }

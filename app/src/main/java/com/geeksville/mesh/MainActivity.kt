@@ -186,9 +186,9 @@ class MainActivity : AppCompatActivity(), Logging {
 
     private val tabInfos = arrayOf(
         TabInfo(
-            "Messages",
-            R.drawable.ic_twotone_message_24,
-            ContactsFragment()
+            "Discovery",
+            R.drawable.ic_twotone_settings_applications_24,
+            SettingsFragment()
         ),
         TabInfo(
             "Users",
@@ -196,20 +196,16 @@ class MainActivity : AppCompatActivity(), Logging {
             UsersFragment()
         ),
         TabInfo(
+            "Messages",
+            R.drawable.ic_twotone_message_24,
+            ContactsFragment()
+        ),
+        TabInfo(
             "Map",
             R.drawable.ic_twotone_map_24,
             MapFragment()
         ),
-        TabInfo(
-            "Channel",
-            R.drawable.ic_twotone_contactless_24,
-            ChannelFragment()
-        ),
-        TabInfo(
-            "Settings",
-            R.drawable.ic_twotone_settings_applications_24,
-            SettingsFragment()
-        )
+
     )
 
     private val tabsAdapter = object : FragmentStateAdapter(supportFragmentManager, lifecycle) {

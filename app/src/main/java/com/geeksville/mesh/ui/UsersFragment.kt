@@ -24,16 +24,21 @@ import android.view.ViewGroup
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.Card
 import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.platform.ViewCompositionStrategy
 import androidx.compose.ui.unit.dp
@@ -130,29 +135,43 @@ fun NodesScreen(
         }
 
         items(nodes, key = { it.num }) { node ->
-            NodeItem(
-                modifier = Modifier.animateContentSize(),
-                thisNode = ourNode,
-                thatNode = node,
-                gpsFormat = state.gpsFormat,
-                distanceUnits = state.distanceUnits,
-                tempInFahrenheit = state.tempInFahrenheit,
-                onAction = { menuItem ->
-                    when (menuItem) {
-                        is NodeMenuAction.Remove -> model.removeNode(node.num)
-                        is NodeMenuAction.Ignore -> model.ignoreNode(node)
-                        is NodeMenuAction.Favorite -> model.favoriteNode(node)
-                        is NodeMenuAction.DirectMessage -> navigateToMessages(node)
-                        is NodeMenuAction.RequestUserInfo -> model.requestUserInfo(node.num)
-                        is NodeMenuAction.RequestPosition -> model.requestPosition(node.num)
-                        is NodeMenuAction.TraceRoute -> model.requestTraceroute(node.num)
-                        is NodeMenuAction.MoreDetails -> navigateToNodeDetails(node.num)
-                    }
-                },
-                expanded = state.showDetails,
-                currentTimeMillis = currentTimeMillis,
-                isConnected = connectionState.isConnected(),
-            )
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 8.dp, vertical = 4.dp)
+                    .clip(RoundedCornerShape(16.dp))
+                    .border(
+                        width = 1.dp,
+                        color = Color.Gray.copy(alpha = 0.3f),
+                        shape = RoundedCornerShape(20.dp)
+                    ),
+                elevation = 6.dp,
+                backgroundColor = MaterialTheme.colors.surface,
+            ) {
+                NodeItem(
+                    modifier = Modifier.animateContentSize(),
+                    thisNode = ourNode,
+                    thatNode = node,
+                    gpsFormat = state.gpsFormat,
+                    distanceUnits = state.distanceUnits,
+                    tempInFahrenheit = state.tempInFahrenheit,
+                    onAction = { menuItem ->
+                        when (menuItem) {
+                            is NodeMenuAction.Remove -> model.removeNode(node.num)
+                            is NodeMenuAction.Ignore -> model.ignoreNode(node)
+                            is NodeMenuAction.Favorite -> model.favoriteNode(node)
+                            is NodeMenuAction.DirectMessage -> navigateToMessages(node)
+                            is NodeMenuAction.RequestUserInfo -> model.requestUserInfo(node.num)
+                            is NodeMenuAction.RequestPosition -> model.requestPosition(node.num)
+                            is NodeMenuAction.TraceRoute -> model.requestTraceroute(node.num)
+                            is NodeMenuAction.MoreDetails -> navigateToNodeDetails(node.num)
+                        }
+                    },
+                    expanded = false,
+                    currentTimeMillis = currentTimeMillis,
+                    isConnected = connectionState.isConnected(),
+                )
+            }
         }
     }
 }
