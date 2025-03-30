@@ -2,7 +2,7 @@
 <SmellBaseline>
   <ManuallySuppressedIssues></ManuallySuppressedIssues>
   <CurrentIssues>
-    <ID>AbsentOrWrongFileLicense:LazyColumnDragAndDropDemo.kt$com.geeksville.mesh.ui.components.LazyColumnDragAndDropDemo.kt</ID>
+    <ID>AbsentOrWrongFileLicense:LazyColumnDragAndDropDemo.kt$com.sigtrack.lorascan.ui.components.LazyColumnDragAndDropDemo.kt</ID>
     <ID>ChainWrapping:Channel.kt$Channel$&amp;&amp;</ID>
     <ID>ChainWrapping:CustomTileSource.kt$CustomTileSource.Companion.&lt;no name provided&gt;$+</ID>
     <ID>ChainWrapping:SqlTileWriterExt.kt$SqlTileWriterExt$+</ID>
@@ -61,7 +61,7 @@
     <ID>CommentSpacing:SafeBluetooth.kt$SafeBluetooth$/// from characteristic UUIDs to the handler function for notfies</ID>
     <ID>CommentSpacing:SafeBluetooth.kt$SafeBluetooth$/// helper glue to make sync continuations and then wait for the result</ID>
     <ID>CommentSpacing:SafeBluetooth.kt$SafeBluetooth$/// if we are in the first non-automated lowLevel connect.</ID>
-    <ID>CommentSpacing:SafeBluetooth.kt$SafeBluetooth$//com.geeksville.mesh.service.SafeBluetooth.closeGatt</ID>
+    <ID>CommentSpacing:SafeBluetooth.kt$SafeBluetooth$//com.sigtrack.lorascan.service.SafeBluetooth.closeGatt</ID>
     <ID>CommentSpacing:SafeBluetooth.kt$SafeBluetooth.&lt;no name provided&gt;$//throw Exception("Mystery bluetooth failure - debug me")</ID>
     <ID>CommentSpacing:SafeBluetooth.kt$SafeBluetooth.BluetoothContinuation$/// Connection work items are treated specially</ID>
     <ID>CommentSpacing:SafeBluetooth.kt$SafeBluetooth.BluetoothContinuation$/// Start running a queued bit of work, return true for success or false for fatal bluetooth error</ID>
@@ -85,52 +85,52 @@
     <ID>EmptyFunctionBlock:NopInterface.kt$NopInterface${ }</ID>
     <ID>EmptyFunctionBlock:NsdManager.kt$&lt;no name provided&gt;${ }</ID>
     <ID>EmptyFunctionBlock:TrustAllX509TrustManager.kt$TrustAllX509TrustManager${}</ID>
-    <ID>FinalNewline:AppIntroduction.kt$com.geeksville.mesh.AppIntroduction.kt</ID>
-    <ID>FinalNewline:AppPrefs.kt$com.geeksville.mesh.android.AppPrefs.kt</ID>
-    <ID>FinalNewline:ApplicationModule.kt$com.geeksville.mesh.ApplicationModule.kt</ID>
-    <ID>FinalNewline:BLEException.kt$com.geeksville.mesh.service.BLEException.kt</ID>
-    <ID>FinalNewline:BluetoothInterfaceFactory.kt$com.geeksville.mesh.repository.radio.BluetoothInterfaceFactory.kt</ID>
-    <ID>FinalNewline:BluetoothRepositoryModule.kt$com.geeksville.mesh.repository.bluetooth.BluetoothRepositoryModule.kt</ID>
-    <ID>FinalNewline:BluetoothViewModel.kt$com.geeksville.mesh.model.BluetoothViewModel.kt</ID>
-    <ID>FinalNewline:BootCompleteReceiver.kt$com.geeksville.mesh.service.BootCompleteReceiver.kt</ID>
-    <ID>FinalNewline:Color.kt$com.geeksville.mesh.ui.theme.Color.kt</ID>
-    <ID>FinalNewline:CoroutineDispatchers.kt$com.geeksville.mesh.CoroutineDispatchers.kt</ID>
-    <ID>FinalNewline:Coroutines.kt$com.geeksville.mesh.concurrent.Coroutines.kt</ID>
-    <ID>FinalNewline:CustomTileSource.kt$com.geeksville.mesh.model.map.CustomTileSource.kt</ID>
-    <ID>FinalNewline:DatabaseModule.kt$com.geeksville.mesh.database.DatabaseModule.kt</ID>
-    <ID>FinalNewline:DateUtils.kt$com.geeksville.mesh.android.DateUtils.kt</ID>
-    <ID>FinalNewline:DebugLogFile.kt$com.geeksville.mesh.android.DebugLogFile.kt</ID>
-    <ID>FinalNewline:DeferredExecution.kt$com.geeksville.mesh.concurrent.DeferredExecution.kt</ID>
-    <ID>FinalNewline:DeviceVersion.kt$com.geeksville.mesh.model.DeviceVersion.kt</ID>
-    <ID>FinalNewline:DeviceVersionTest.kt$com.geeksville.mesh.model.DeviceVersionTest.kt</ID>
-    <ID>FinalNewline:ElevationInfo.kt$com.geeksville.mesh.ui.compose.ElevationInfo.kt</ID>
-    <ID>FinalNewline:ExpireChecker.kt$com.geeksville.mesh.android.ExpireChecker.kt</ID>
-    <ID>FinalNewline:InterfaceId.kt$com.geeksville.mesh.repository.radio.InterfaceId.kt</ID>
-    <ID>FinalNewline:InterfaceSpec.kt$com.geeksville.mesh.repository.radio.InterfaceSpec.kt</ID>
-    <ID>FinalNewline:Logging.kt$com.geeksville.mesh.android.Logging.kt</ID>
-    <ID>FinalNewline:MockInterfaceFactory.kt$com.geeksville.mesh.repository.radio.MockInterfaceFactory.kt</ID>
-    <ID>FinalNewline:NOAAWmsTileSource.kt$com.geeksville.mesh.model.map.NOAAWmsTileSource.kt</ID>
-    <ID>FinalNewline:NopInterface.kt$com.geeksville.mesh.repository.radio.NopInterface.kt</ID>
-    <ID>FinalNewline:NopInterfaceFactory.kt$com.geeksville.mesh.repository.radio.NopInterfaceFactory.kt</ID>
-    <ID>FinalNewline:OnlineTileSourceAuth.kt$com.geeksville.mesh.model.map.OnlineTileSourceAuth.kt</ID>
-    <ID>FinalNewline:PreferenceCategory.kt$com.geeksville.mesh.ui.components.PreferenceCategory.kt</ID>
-    <ID>FinalNewline:PreviewParameterProviders.kt$com.geeksville.mesh.ui.preview.PreviewParameterProviders.kt</ID>
-    <ID>FinalNewline:ProbeTableProvider.kt$com.geeksville.mesh.repository.usb.ProbeTableProvider.kt</ID>
-    <ID>FinalNewline:QuickChatActionRepository.kt$com.geeksville.mesh.database.QuickChatActionRepository.kt</ID>
-    <ID>FinalNewline:RadioNotConnectedException.kt$com.geeksville.mesh.service.RadioNotConnectedException.kt</ID>
-    <ID>FinalNewline:RadioRepositoryModule.kt$com.geeksville.mesh.repository.radio.RadioRepositoryModule.kt</ID>
-    <ID>FinalNewline:RegularPreference.kt$com.geeksville.mesh.ui.components.RegularPreference.kt</ID>
-    <ID>FinalNewline:SafeBluetooth.kt$com.geeksville.mesh.service.SafeBluetooth.kt</ID>
-    <ID>FinalNewline:SatelliteCountInfo.kt$com.geeksville.mesh.ui.compose.SatelliteCountInfo.kt</ID>
-    <ID>FinalNewline:SerialConnection.kt$com.geeksville.mesh.repository.usb.SerialConnection.kt</ID>
-    <ID>FinalNewline:SerialConnectionListener.kt$com.geeksville.mesh.repository.usb.SerialConnectionListener.kt</ID>
-    <ID>FinalNewline:SerialInterface.kt$com.geeksville.mesh.repository.radio.SerialInterface.kt</ID>
-    <ID>FinalNewline:SerialInterfaceFactory.kt$com.geeksville.mesh.repository.radio.SerialInterfaceFactory.kt</ID>
-    <ID>FinalNewline:SoftwareUpdateService.kt$com.geeksville.mesh.service.SoftwareUpdateService.kt</ID>
-    <ID>FinalNewline:SqlTileWriterExt.kt$com.geeksville.mesh.util.SqlTileWriterExt.kt</ID>
-    <ID>FinalNewline:TCPInterfaceFactory.kt$com.geeksville.mesh.repository.radio.TCPInterfaceFactory.kt</ID>
-    <ID>FinalNewline:UsbBroadcastReceiver.kt$com.geeksville.mesh.repository.usb.UsbBroadcastReceiver.kt</ID>
-    <ID>FinalNewline:UsbRepositoryModule.kt$com.geeksville.mesh.repository.usb.UsbRepositoryModule.kt</ID>
+    <ID>FinalNewline:AppIntroduction.kt$com.sigtrack.lorascan.AppIntroduction.kt</ID>
+    <ID>FinalNewline:AppPrefs.kt$com.sigtrack.lorascan.android.AppPrefs.kt</ID>
+    <ID>FinalNewline:ApplicationModule.kt$com.sigtrack.lorascan.ApplicationModule.kt</ID>
+    <ID>FinalNewline:BLEException.kt$com.sigtrack.lorascan.service.BLEException.kt</ID>
+    <ID>FinalNewline:BluetoothInterfaceFactory.kt$com.sigtrack.lorascan.repository.radio.BluetoothInterfaceFactory.kt</ID>
+    <ID>FinalNewline:BluetoothRepositoryModule.kt$com.sigtrack.lorascan.repository.bluetooth.BluetoothRepositoryModule.kt</ID>
+    <ID>FinalNewline:BluetoothViewModel.kt$com.sigtrack.lorascan.model.BluetoothViewModel.kt</ID>
+    <ID>FinalNewline:BootCompleteReceiver.kt$com.sigtrack.lorascan.service.BootCompleteReceiver.kt</ID>
+    <ID>FinalNewline:Color.kt$com.sigtrack.lorascan.ui.theme.Color.kt</ID>
+    <ID>FinalNewline:CoroutineDispatchers.kt$com.sigtrack.lorascan.CoroutineDispatchers.kt</ID>
+    <ID>FinalNewline:Coroutines.kt$com.sigtrack.lorascan.concurrent.Coroutines.kt</ID>
+    <ID>FinalNewline:CustomTileSource.kt$com.sigtrack.lorascan.model.map.CustomTileSource.kt</ID>
+    <ID>FinalNewline:DatabaseModule.kt$com.sigtrack.lorascan.database.DatabaseModule.kt</ID>
+    <ID>FinalNewline:DateUtils.kt$com.sigtrack.lorascan.android.DateUtils.kt</ID>
+    <ID>FinalNewline:DebugLogFile.kt$com.sigtrack.lorascan.android.DebugLogFile.kt</ID>
+    <ID>FinalNewline:DeferredExecution.kt$com.sigtrack.lorascan.concurrent.DeferredExecution.kt</ID>
+    <ID>FinalNewline:DeviceVersion.kt$com.sigtrack.lorascan.model.DeviceVersion.kt</ID>
+    <ID>FinalNewline:DeviceVersionTest.kt$com.sigtrack.lorascan.model.DeviceVersionTest.kt</ID>
+    <ID>FinalNewline:ElevationInfo.kt$com.sigtrack.lorascan.ui.compose.ElevationInfo.kt</ID>
+    <ID>FinalNewline:ExpireChecker.kt$com.sigtrack.lorascan.android.ExpireChecker.kt</ID>
+    <ID>FinalNewline:InterfaceId.kt$com.sigtrack.lorascan.repository.radio.InterfaceId.kt</ID>
+    <ID>FinalNewline:InterfaceSpec.kt$com.sigtrack.lorascan.repository.radio.InterfaceSpec.kt</ID>
+    <ID>FinalNewline:Logging.kt$com.sigtrack.lorascan.android.Logging.kt</ID>
+    <ID>FinalNewline:MockInterfaceFactory.kt$com.sigtrack.lorascan.repository.radio.MockInterfaceFactory.kt</ID>
+    <ID>FinalNewline:NOAAWmsTileSource.kt$com.sigtrack.lorascan.model.map.NOAAWmsTileSource.kt</ID>
+    <ID>FinalNewline:NopInterface.kt$com.sigtrack.lorascan.repository.radio.NopInterface.kt</ID>
+    <ID>FinalNewline:NopInterfaceFactory.kt$com.sigtrack.lorascan.repository.radio.NopInterfaceFactory.kt</ID>
+    <ID>FinalNewline:OnlineTileSourceAuth.kt$com.sigtrack.lorascan.model.map.OnlineTileSourceAuth.kt</ID>
+    <ID>FinalNewline:PreferenceCategory.kt$com.sigtrack.lorascan.ui.components.PreferenceCategory.kt</ID>
+    <ID>FinalNewline:PreviewParameterProviders.kt$com.sigtrack.lorascan.ui.preview.PreviewParameterProviders.kt</ID>
+    <ID>FinalNewline:ProbeTableProvider.kt$com.sigtrack.lorascan.repository.usb.ProbeTableProvider.kt</ID>
+    <ID>FinalNewline:QuickChatActionRepository.kt$com.sigtrack.lorascan.database.QuickChatActionRepository.kt</ID>
+    <ID>FinalNewline:RadioNotConnectedException.kt$com.sigtrack.lorascan.service.RadioNotConnectedException.kt</ID>
+    <ID>FinalNewline:RadioRepositoryModule.kt$com.sigtrack.lorascan.repository.radio.RadioRepositoryModule.kt</ID>
+    <ID>FinalNewline:RegularPreference.kt$com.sigtrack.lorascan.ui.components.RegularPreference.kt</ID>
+    <ID>FinalNewline:SafeBluetooth.kt$com.sigtrack.lorascan.service.SafeBluetooth.kt</ID>
+    <ID>FinalNewline:SatelliteCountInfo.kt$com.sigtrack.lorascan.ui.compose.SatelliteCountInfo.kt</ID>
+    <ID>FinalNewline:SerialConnection.kt$com.sigtrack.lorascan.repository.usb.SerialConnection.kt</ID>
+    <ID>FinalNewline:SerialConnectionListener.kt$com.sigtrack.lorascan.repository.usb.SerialConnectionListener.kt</ID>
+    <ID>FinalNewline:SerialInterface.kt$com.sigtrack.lorascan.repository.radio.SerialInterface.kt</ID>
+    <ID>FinalNewline:SerialInterfaceFactory.kt$com.sigtrack.lorascan.repository.radio.SerialInterfaceFactory.kt</ID>
+    <ID>FinalNewline:SoftwareUpdateService.kt$com.sigtrack.lorascan.service.SoftwareUpdateService.kt</ID>
+    <ID>FinalNewline:SqlTileWriterExt.kt$com.sigtrack.lorascan.util.SqlTileWriterExt.kt</ID>
+    <ID>FinalNewline:TCPInterfaceFactory.kt$com.sigtrack.lorascan.repository.radio.TCPInterfaceFactory.kt</ID>
+    <ID>FinalNewline:UsbBroadcastReceiver.kt$com.sigtrack.lorascan.repository.usb.UsbBroadcastReceiver.kt</ID>
+    <ID>FinalNewline:UsbRepositoryModule.kt$com.sigtrack.lorascan.repository.usb.UsbRepositoryModule.kt</ID>
     <ID>ForbiddenComment:MapFragment.kt$// TODO: Accept filename input param from user</ID>
     <ID>ForbiddenComment:SafeBluetooth.kt$SafeBluetooth$// TODO: display some kind of UI about restarting BLE</ID>
     <ID>FunctionNaming:PacketDao.kt$PacketDao$@Query("DELETE FROM packet WHERE uuid=:uuid") suspend fun _delete(uuid: Long)</ID>
@@ -423,7 +423,9 @@
     <ID>MaxLineLength:SafeBluetooth.kt$SafeBluetooth$// Set these to null _before_ calling gatt.disconnect(), because we don't want the old lostConnectCallback to get called</ID>
     <ID>MaxLineLength:SafeBluetooth.kt$SafeBluetooth$// We might unexpectedly fail inside here, but we don't want to pass that exception back up to the bluetooth GATT layer</ID>
     <ID>MaxLineLength:SafeBluetooth.kt$SafeBluetooth$// note - we don't need an init fn (because that would normally redo the connectGatt call - which we don't need)</ID>
-    <ID>MaxLineLength:SafeBluetooth.kt$SafeBluetooth$06-29 08:47:15.037 29788-29813/com.geeksville.mesh D/BluetoothGatt: onClientConnectionState() - status=0 clientIf=5 device=24:62:AB:F8:40:9A</ID>
+    <ID>MaxLineLength:SafeBluetooth.kt$SafeBluetooth$06-29 08:47:15.037
+      29788-29813/com.sigtrack.lorascan D/BluetoothGatt: onClientConnectionState() - status=0
+      clientIf=5 device=24:62:AB:F8:40:9A</ID>
     <ID>MaxLineLength:SafeBluetooth.kt$SafeBluetooth$?:</ID>
     <ID>MaxLineLength:SafeBluetooth.kt$SafeBluetooth$if</ID>
     <ID>MaxLineLength:SafeBluetooth.kt$SafeBluetooth$if (enable) BluetoothGattDescriptor.ENABLE_NOTIFICATION_VALUE else BluetoothGattDescriptor.DISABLE_NOTIFICATION_VALUE</ID>
@@ -520,52 +522,52 @@
     <ID>NestedBlockDepth:MeshService.kt$MeshService$private fun handleReceivedAdmin(fromNodeNum: Int, a: AdminProtos.AdminMessage)</ID>
     <ID>NestedBlockDepth:MeshService.kt$MeshService$private fun handleReceivedData(packet: MeshPacket)</ID>
     <ID>NestedBlockDepth:RadioConfigViewModel.kt$RadioConfigViewModel$private fun processPacketResponse(packet: MeshProtos.MeshPacket)</ID>
-    <ID>NewLineAtEndOfFile:AppIntroduction.kt$com.geeksville.mesh.AppIntroduction.kt</ID>
-    <ID>NewLineAtEndOfFile:AppPrefs.kt$com.geeksville.mesh.android.AppPrefs.kt</ID>
-    <ID>NewLineAtEndOfFile:ApplicationModule.kt$com.geeksville.mesh.ApplicationModule.kt</ID>
-    <ID>NewLineAtEndOfFile:BLEException.kt$com.geeksville.mesh.service.BLEException.kt</ID>
-    <ID>NewLineAtEndOfFile:BluetoothInterfaceFactory.kt$com.geeksville.mesh.repository.radio.BluetoothInterfaceFactory.kt</ID>
-    <ID>NewLineAtEndOfFile:BluetoothRepositoryModule.kt$com.geeksville.mesh.repository.bluetooth.BluetoothRepositoryModule.kt</ID>
-    <ID>NewLineAtEndOfFile:BluetoothViewModel.kt$com.geeksville.mesh.model.BluetoothViewModel.kt</ID>
-    <ID>NewLineAtEndOfFile:BootCompleteReceiver.kt$com.geeksville.mesh.service.BootCompleteReceiver.kt</ID>
-    <ID>NewLineAtEndOfFile:Color.kt$com.geeksville.mesh.ui.theme.Color.kt</ID>
-    <ID>NewLineAtEndOfFile:CoroutineDispatchers.kt$com.geeksville.mesh.CoroutineDispatchers.kt</ID>
-    <ID>NewLineAtEndOfFile:Coroutines.kt$com.geeksville.mesh.concurrent.Coroutines.kt</ID>
-    <ID>NewLineAtEndOfFile:CustomTileSource.kt$com.geeksville.mesh.model.map.CustomTileSource.kt</ID>
-    <ID>NewLineAtEndOfFile:DatabaseModule.kt$com.geeksville.mesh.database.DatabaseModule.kt</ID>
-    <ID>NewLineAtEndOfFile:DateUtils.kt$com.geeksville.mesh.android.DateUtils.kt</ID>
-    <ID>NewLineAtEndOfFile:DebugLogFile.kt$com.geeksville.mesh.android.DebugLogFile.kt</ID>
-    <ID>NewLineAtEndOfFile:DeferredExecution.kt$com.geeksville.mesh.concurrent.DeferredExecution.kt</ID>
-    <ID>NewLineAtEndOfFile:DeviceVersion.kt$com.geeksville.mesh.model.DeviceVersion.kt</ID>
-    <ID>NewLineAtEndOfFile:DeviceVersionTest.kt$com.geeksville.mesh.model.DeviceVersionTest.kt</ID>
-    <ID>NewLineAtEndOfFile:ElevationInfo.kt$com.geeksville.mesh.ui.compose.ElevationInfo.kt</ID>
-    <ID>NewLineAtEndOfFile:ExpireChecker.kt$com.geeksville.mesh.android.ExpireChecker.kt</ID>
-    <ID>NewLineAtEndOfFile:InterfaceId.kt$com.geeksville.mesh.repository.radio.InterfaceId.kt</ID>
-    <ID>NewLineAtEndOfFile:InterfaceSpec.kt$com.geeksville.mesh.repository.radio.InterfaceSpec.kt</ID>
-    <ID>NewLineAtEndOfFile:Logging.kt$com.geeksville.mesh.android.Logging.kt</ID>
-    <ID>NewLineAtEndOfFile:MockInterfaceFactory.kt$com.geeksville.mesh.repository.radio.MockInterfaceFactory.kt</ID>
-    <ID>NewLineAtEndOfFile:NOAAWmsTileSource.kt$com.geeksville.mesh.model.map.NOAAWmsTileSource.kt</ID>
-    <ID>NewLineAtEndOfFile:NopInterface.kt$com.geeksville.mesh.repository.radio.NopInterface.kt</ID>
-    <ID>NewLineAtEndOfFile:NopInterfaceFactory.kt$com.geeksville.mesh.repository.radio.NopInterfaceFactory.kt</ID>
-    <ID>NewLineAtEndOfFile:OnlineTileSourceAuth.kt$com.geeksville.mesh.model.map.OnlineTileSourceAuth.kt</ID>
-    <ID>NewLineAtEndOfFile:PreferenceCategory.kt$com.geeksville.mesh.ui.components.PreferenceCategory.kt</ID>
-    <ID>NewLineAtEndOfFile:PreviewParameterProviders.kt$com.geeksville.mesh.ui.preview.PreviewParameterProviders.kt</ID>
-    <ID>NewLineAtEndOfFile:ProbeTableProvider.kt$com.geeksville.mesh.repository.usb.ProbeTableProvider.kt</ID>
-    <ID>NewLineAtEndOfFile:QuickChatActionRepository.kt$com.geeksville.mesh.database.QuickChatActionRepository.kt</ID>
-    <ID>NewLineAtEndOfFile:RadioNotConnectedException.kt$com.geeksville.mesh.service.RadioNotConnectedException.kt</ID>
-    <ID>NewLineAtEndOfFile:RadioRepositoryModule.kt$com.geeksville.mesh.repository.radio.RadioRepositoryModule.kt</ID>
-    <ID>NewLineAtEndOfFile:RegularPreference.kt$com.geeksville.mesh.ui.components.RegularPreference.kt</ID>
-    <ID>NewLineAtEndOfFile:SafeBluetooth.kt$com.geeksville.mesh.service.SafeBluetooth.kt</ID>
-    <ID>NewLineAtEndOfFile:SatelliteCountInfo.kt$com.geeksville.mesh.ui.compose.SatelliteCountInfo.kt</ID>
-    <ID>NewLineAtEndOfFile:SerialConnection.kt$com.geeksville.mesh.repository.usb.SerialConnection.kt</ID>
-    <ID>NewLineAtEndOfFile:SerialConnectionListener.kt$com.geeksville.mesh.repository.usb.SerialConnectionListener.kt</ID>
-    <ID>NewLineAtEndOfFile:SerialInterface.kt$com.geeksville.mesh.repository.radio.SerialInterface.kt</ID>
-    <ID>NewLineAtEndOfFile:SerialInterfaceFactory.kt$com.geeksville.mesh.repository.radio.SerialInterfaceFactory.kt</ID>
-    <ID>NewLineAtEndOfFile:SoftwareUpdateService.kt$com.geeksville.mesh.service.SoftwareUpdateService.kt</ID>
-    <ID>NewLineAtEndOfFile:SqlTileWriterExt.kt$com.geeksville.mesh.util.SqlTileWriterExt.kt</ID>
-    <ID>NewLineAtEndOfFile:TCPInterfaceFactory.kt$com.geeksville.mesh.repository.radio.TCPInterfaceFactory.kt</ID>
-    <ID>NewLineAtEndOfFile:UsbBroadcastReceiver.kt$com.geeksville.mesh.repository.usb.UsbBroadcastReceiver.kt</ID>
-    <ID>NewLineAtEndOfFile:UsbRepositoryModule.kt$com.geeksville.mesh.repository.usb.UsbRepositoryModule.kt</ID>
+    <ID>NewLineAtEndOfFile:AppIntroduction.kt$com.sigtrack.lorascan.AppIntroduction.kt</ID>
+    <ID>NewLineAtEndOfFile:AppPrefs.kt$com.sigtrack.lorascan.android.AppPrefs.kt</ID>
+    <ID>NewLineAtEndOfFile:ApplicationModule.kt$com.sigtrack.lorascan.ApplicationModule.kt</ID>
+    <ID>NewLineAtEndOfFile:BLEException.kt$com.sigtrack.lorascan.service.BLEException.kt</ID>
+    <ID>NewLineAtEndOfFile:BluetoothInterfaceFactory.kt$com.sigtrack.lorascan.repository.radio.BluetoothInterfaceFactory.kt</ID>
+    <ID>NewLineAtEndOfFile:BluetoothRepositoryModule.kt$com.sigtrack.lorascan.repository.bluetooth.BluetoothRepositoryModule.kt</ID>
+    <ID>NewLineAtEndOfFile:BluetoothViewModel.kt$com.sigtrack.lorascan.model.BluetoothViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:BootCompleteReceiver.kt$com.sigtrack.lorascan.service.BootCompleteReceiver.kt</ID>
+    <ID>NewLineAtEndOfFile:Color.kt$com.sigtrack.lorascan.ui.theme.Color.kt</ID>
+    <ID>NewLineAtEndOfFile:CoroutineDispatchers.kt$com.sigtrack.lorascan.CoroutineDispatchers.kt</ID>
+    <ID>NewLineAtEndOfFile:Coroutines.kt$com.sigtrack.lorascan.concurrent.Coroutines.kt</ID>
+    <ID>NewLineAtEndOfFile:CustomTileSource.kt$com.sigtrack.lorascan.model.map.CustomTileSource.kt</ID>
+    <ID>NewLineAtEndOfFile:DatabaseModule.kt$com.sigtrack.lorascan.database.DatabaseModule.kt</ID>
+    <ID>NewLineAtEndOfFile:DateUtils.kt$com.sigtrack.lorascan.android.DateUtils.kt</ID>
+    <ID>NewLineAtEndOfFile:DebugLogFile.kt$com.sigtrack.lorascan.android.DebugLogFile.kt</ID>
+    <ID>NewLineAtEndOfFile:DeferredExecution.kt$com.sigtrack.lorascan.concurrent.DeferredExecution.kt</ID>
+    <ID>NewLineAtEndOfFile:DeviceVersion.kt$com.sigtrack.lorascan.model.DeviceVersion.kt</ID>
+    <ID>NewLineAtEndOfFile:DeviceVersionTest.kt$com.sigtrack.lorascan.model.DeviceVersionTest.kt</ID>
+    <ID>NewLineAtEndOfFile:ElevationInfo.kt$com.sigtrack.lorascan.ui.compose.ElevationInfo.kt</ID>
+    <ID>NewLineAtEndOfFile:ExpireChecker.kt$com.sigtrack.lorascan.android.ExpireChecker.kt</ID>
+    <ID>NewLineAtEndOfFile:InterfaceId.kt$com.sigtrack.lorascan.repository.radio.InterfaceId.kt</ID>
+    <ID>NewLineAtEndOfFile:InterfaceSpec.kt$com.sigtrack.lorascan.repository.radio.InterfaceSpec.kt</ID>
+    <ID>NewLineAtEndOfFile:Logging.kt$com.sigtrack.lorascan.android.Logging.kt</ID>
+    <ID>NewLineAtEndOfFile:MockInterfaceFactory.kt$com.sigtrack.lorascan.repository.radio.MockInterfaceFactory.kt</ID>
+    <ID>NewLineAtEndOfFile:NOAAWmsTileSource.kt$com.sigtrack.lorascan.model.map.NOAAWmsTileSource.kt</ID>
+    <ID>NewLineAtEndOfFile:NopInterface.kt$com.sigtrack.lorascan.repository.radio.NopInterface.kt</ID>
+    <ID>NewLineAtEndOfFile:NopInterfaceFactory.kt$com.sigtrack.lorascan.repository.radio.NopInterfaceFactory.kt</ID>
+    <ID>NewLineAtEndOfFile:OnlineTileSourceAuth.kt$com.sigtrack.lorascan.model.map.OnlineTileSourceAuth.kt</ID>
+    <ID>NewLineAtEndOfFile:PreferenceCategory.kt$com.sigtrack.lorascan.ui.components.PreferenceCategory.kt</ID>
+    <ID>NewLineAtEndOfFile:PreviewParameterProviders.kt$com.sigtrack.lorascan.ui.preview.PreviewParameterProviders.kt</ID>
+    <ID>NewLineAtEndOfFile:ProbeTableProvider.kt$com.sigtrack.lorascan.repository.usb.ProbeTableProvider.kt</ID>
+    <ID>NewLineAtEndOfFile:QuickChatActionRepository.kt$com.sigtrack.lorascan.database.QuickChatActionRepository.kt</ID>
+    <ID>NewLineAtEndOfFile:RadioNotConnectedException.kt$com.sigtrack.lorascan.service.RadioNotConnectedException.kt</ID>
+    <ID>NewLineAtEndOfFile:RadioRepositoryModule.kt$com.sigtrack.lorascan.repository.radio.RadioRepositoryModule.kt</ID>
+    <ID>NewLineAtEndOfFile:RegularPreference.kt$com.sigtrack.lorascan.ui.components.RegularPreference.kt</ID>
+    <ID>NewLineAtEndOfFile:SafeBluetooth.kt$com.sigtrack.lorascan.service.SafeBluetooth.kt</ID>
+    <ID>NewLineAtEndOfFile:SatelliteCountInfo.kt$com.sigtrack.lorascan.ui.compose.SatelliteCountInfo.kt</ID>
+    <ID>NewLineAtEndOfFile:SerialConnection.kt$com.sigtrack.lorascan.repository.usb.SerialConnection.kt</ID>
+    <ID>NewLineAtEndOfFile:SerialConnectionListener.kt$com.sigtrack.lorascan.repository.usb.SerialConnectionListener.kt</ID>
+    <ID>NewLineAtEndOfFile:SerialInterface.kt$com.sigtrack.lorascan.repository.radio.SerialInterface.kt</ID>
+    <ID>NewLineAtEndOfFile:SerialInterfaceFactory.kt$com.sigtrack.lorascan.repository.radio.SerialInterfaceFactory.kt</ID>
+    <ID>NewLineAtEndOfFile:SoftwareUpdateService.kt$com.sigtrack.lorascan.service.SoftwareUpdateService.kt</ID>
+    <ID>NewLineAtEndOfFile:SqlTileWriterExt.kt$com.sigtrack.lorascan.util.SqlTileWriterExt.kt</ID>
+    <ID>NewLineAtEndOfFile:TCPInterfaceFactory.kt$com.sigtrack.lorascan.repository.radio.TCPInterfaceFactory.kt</ID>
+    <ID>NewLineAtEndOfFile:UsbBroadcastReceiver.kt$com.sigtrack.lorascan.repository.usb.UsbBroadcastReceiver.kt</ID>
+    <ID>NewLineAtEndOfFile:UsbRepositoryModule.kt$com.sigtrack.lorascan.repository.usb.UsbRepositoryModule.kt</ID>
     <ID>NoBlankLineBeforeRbrace:BluetoothInterface.kt$BluetoothInterface$ </ID>
     <ID>NoBlankLineBeforeRbrace:CustomTileSource.kt$CustomTileSource$ </ID>
     <ID>NoBlankLineBeforeRbrace:DebugLogFile.kt$BinaryLogFile$ </ID>
@@ -595,15 +597,15 @@
     <ID>NoEmptyClassBody:DebugLogFile.kt$BinaryLogFile${ }</ID>
     <ID>NoSemicolons:DateUtils.kt$DateUtils$;</ID>
     <ID>NoTrailingSpaces:ExpireChecker.kt$ExpireChecker$ </ID>
-    <ID>NoWildcardImports:BluetoothInterface.kt$import com.geeksville.mesh.service.*</ID>
+    <ID>NoWildcardImports:BluetoothInterface.kt$import com.sigtrack.lorascan.service.*</ID>
     <ID>NoWildcardImports:DeviceVersionTest.kt$import org.junit.Assert.*</ID>
     <ID>NoWildcardImports:ExampleUnitTest.kt$import org.junit.Assert.*</ID>
-    <ID>NoWildcardImports:MockInterface.kt$import com.geeksville.mesh.*</ID>
+    <ID>NoWildcardImports:MockInterface.kt$import com.sigtrack.lorascan.*</ID>
     <ID>NoWildcardImports:PreferenceFooter.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>NoWildcardImports:PreferenceFooter.kt$import androidx.compose.material.*</ID>
     <ID>NoWildcardImports:SafeBluetooth.kt$import android.bluetooth.*</ID>
     <ID>NoWildcardImports:SafeBluetooth.kt$import kotlinx.coroutines.*</ID>
-    <ID>NoWildcardImports:SettingsFragment.kt$import com.geeksville.mesh.android.*</ID>
+    <ID>NoWildcardImports:SettingsFragment.kt$import com.sigtrack.lorascan.android.*</ID>
     <ID>NoWildcardImports:UsbRepository.kt$import kotlinx.coroutines.flow.*</ID>
     <ID>OptionalAbstractKeyword:SyncContinuation.kt$Continuation$abstract</ID>
     <ID>ParameterListWrapping:AppPrefs.kt$FloatPref$(thisRef: AppPrefs, prop: KProperty&lt;Float&gt;)</ID>
@@ -672,8 +674,8 @@
     <ID>TooGenericExceptionThrown:SyncContinuation.kt$SyncContinuation$throw Exception("This shouldn't happen")</ID>
     <ID>TooManyFunctions:AppPrefs.kt$AppPrefs</ID>
     <ID>TooManyFunctions:BluetoothInterface.kt$BluetoothInterface : IRadioInterfaceLogging</ID>
-    <ID>TooManyFunctions:ContextServices.kt$com.geeksville.mesh.android.ContextServices.kt</ID>
-    <ID>TooManyFunctions:LocationUtils.kt$com.geeksville.mesh.util.LocationUtils.kt</ID>
+    <ID>TooManyFunctions:ContextServices.kt$com.sigtrack.lorascan.android.ContextServices.kt</ID>
+    <ID>TooManyFunctions:LocationUtils.kt$com.sigtrack.lorascan.util.LocationUtils.kt</ID>
     <ID>TooManyFunctions:MainActivity.kt$MainActivity : AppCompatActivityLogging</ID>
     <ID>TooManyFunctions:MeshService.kt$MeshService : ServiceLogging</ID>
     <ID>TooManyFunctions:MeshService.kt$MeshService$&lt;no name provided&gt; : Stub</ID>
@@ -685,7 +687,7 @@
     <ID>TooManyFunctions:SafeBluetooth.kt$SafeBluetooth : LoggingCloseable</ID>
     <ID>TooManyFunctions:SettingsFragment.kt$SettingsFragment : ScreenFragmentLogging</ID>
     <ID>TooManyFunctions:UIState.kt$UIViewModel : ViewModelLogging</ID>
-    <ID>TopLevelPropertyNaming:Constants.kt$const val prefix = "com.geeksville.mesh"</ID>
+    <ID>TopLevelPropertyNaming:Constants.kt$const val prefix = "com.sigtrack.mesh"</ID>
     <ID>UnusedPrivateMember:NOAAWmsTileSource.kt$NOAAWmsTileSource$private fun tile2lat(y: Int, z: Int): Double</ID>
     <ID>UnusedPrivateMember:NOAAWmsTileSource.kt$NOAAWmsTileSource$private fun tile2lon(x: Int, z: Int): Double</ID>
     <ID>UnusedPrivateMember:SafeBluetooth.kt$SafeBluetooth$private fun reconnect()</ID>
@@ -708,15 +710,15 @@
     <ID>VariableNaming:SafeBluetooth.kt$SafeBluetooth$private val STATUS_NOSTART = 4405</ID>
     <ID>VariableNaming:SafeBluetooth.kt$SafeBluetooth$private val STATUS_SIMFAILURE = 4406</ID>
     <ID>VariableNaming:SafeBluetooth.kt$SafeBluetooth$private val STATUS_TIMEOUT = 4404</ID>
-    <ID>WildcardImport:BluetoothInterface.kt$import com.geeksville.mesh.service.*</ID>
+    <ID>WildcardImport:BluetoothInterface.kt$import com.sigtrack.lorascan.service.*</ID>
     <ID>WildcardImport:DeviceVersionTest.kt$import org.junit.Assert.*</ID>
     <ID>WildcardImport:ExampleUnitTest.kt$import org.junit.Assert.*</ID>
-    <ID>WildcardImport:MockInterface.kt$import com.geeksville.mesh.*</ID>
+    <ID>WildcardImport:MockInterface.kt$import com.sigtrack.lorascan.*</ID>
     <ID>WildcardImport:PreferenceFooter.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:PreferenceFooter.kt$import androidx.compose.material.*</ID>
     <ID>WildcardImport:SafeBluetooth.kt$import android.bluetooth.*</ID>
     <ID>WildcardImport:SafeBluetooth.kt$import kotlinx.coroutines.*</ID>
-    <ID>WildcardImport:SettingsFragment.kt$import com.geeksville.mesh.android.*</ID>
+    <ID>WildcardImport:SettingsFragment.kt$import com.sigtrack.lorascan.android.*</ID>
     <ID>WildcardImport:UsbRepository.kt$import kotlinx.coroutines.flow.*</ID>
   </CurrentIssues>
 </SmellBaseline>

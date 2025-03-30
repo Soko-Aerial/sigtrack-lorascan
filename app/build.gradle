@@ -17,7 +17,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace 'com.geeksville.mesh'
+    namespace 'com.sigtrack.lorascan'
 
     signingConfigs {
         release {
@@ -29,7 +29,7 @@ android {
     }
     compileSdk 35
     defaultConfig {
-        applicationId "com.geeksville.mesh"
+        applicationId "com.sigtrack.lorascan"
         minSdkVersion 21 // The oldest emulator image I have tried is 22 (though 21 probably works)
         targetSdk 34
         versionCode 30517 // format is Mmmss (where M is 1+the numeric major number
@@ -271,7 +271,7 @@ dependencies {
 }
 
 ksp {
-//    arg("room.generateKotlin", "true")
+    //arg("room.generateKotlin", "true")
     arg("room.schemaLocation", "$projectDir/schemas")
 }
 
