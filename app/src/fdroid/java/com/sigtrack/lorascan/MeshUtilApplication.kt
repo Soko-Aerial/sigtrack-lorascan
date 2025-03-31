@@ -21,7 +21,7 @@ import com.sigtrack.lorascan.android.GeeksvilleApplication
 import com.sigtrack.lorascan.android.Logging
 import dagger.hilt.android.HiltAndroidApp
 
-//@HiltAndroidApp
+@HiltAndroidApp
 class MeshUtilApplication : GeeksvilleApplication() {
 
     override fun onCreate() {
