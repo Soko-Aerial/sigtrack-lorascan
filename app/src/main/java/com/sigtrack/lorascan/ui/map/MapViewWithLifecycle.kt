@@ -96,7 +96,7 @@ internal fun rememberMapViewWithLifecycle(
             clipToOutline = true
 
             // Required to get online tiles
-            Configuration.getInstance().userAgentValue = BuildConfig.APPLICATION_ID
+            Configuration.getInstance().userAgentValue = BuildConfig.LIBRARY_PACKAGE_NAME
             setTileSource(tileSource)
             isVerticalMapRepetitionEnabled = false // disables map repetition
             setMultiTouchControls(true)
