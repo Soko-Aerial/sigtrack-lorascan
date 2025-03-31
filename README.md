@@ -1,8 +1,17 @@
-<h1 align="center">SIGTRACK LORASCAN</h1>
+<h1 align="center">SIGTRACK LORASCAN LIBRARY</h1>
 
-This is a tool for using Android with open-source Sigtrack Lora radios.
+Add it in your root settings.gradle at the end of repositories:
 
-## Building the Sigtrack Lorascan Android App
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
 
+Add the dependency
 
-Copyright 2025, Sigtrack Lorascan LLC. GPL-3.0 license
+	dependencies {
+	        implementation 'com.github.Soko-Aerial:sigtrack-lorascan:1.0.0'
+	}
