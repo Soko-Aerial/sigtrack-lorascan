@@ -187,7 +187,7 @@ class MainActivity : AppCompatActivity(), Logging {
     private val tabInfos = arrayOf(
         TabInfo(
             "Discovery",
-            R.drawable.ic_twotone_settings_applications_24,
+            R.drawable.loupe,
             SettingsFragment()
         ),
         TabInfo(
@@ -251,7 +251,7 @@ class MainActivity : AppCompatActivity(), Logging {
 
         binding.tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
             override fun onTabSelected(tab: TabLayout.Tab?) {
-                val mainTab = tab?.position ?: 0
+                val mainTab = tab?.position ?: 3
                 model.setCurrentTab(mainTab)
             }
             override fun onTabUnselected(tab: TabLayout.Tab?) { }
