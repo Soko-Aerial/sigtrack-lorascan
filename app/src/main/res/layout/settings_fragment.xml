@@ -155,7 +155,7 @@
             android:contentDescription="@string/change_radio"
             android:text="Discover BLE"
             android:textColor="@android:color/white"
-            android:backgroundTint="@color/colorPrimary"
+            android:backgroundTint="@color/colourGrey"
             app:iconPadding="8dp"
             app:cornerRadius="10dp"
             app:layout_constraintEnd_toEndOf="parent"

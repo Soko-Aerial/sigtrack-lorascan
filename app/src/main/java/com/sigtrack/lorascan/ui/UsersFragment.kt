@@ -122,6 +122,7 @@ fun NodesScreen(
                 modifier = Modifier
                     .fillMaxWidth()
                     .background(MaterialTheme.colors.background)
+                    .clip(RoundedCornerShape(20.dp))
                     .padding(8.dp),
                 filterText = state.filter,
                 onTextChange = model::setNodeFilterText,
@@ -141,7 +142,7 @@ fun NodesScreen(
                     .padding(horizontal = 8.dp, vertical = 4.dp)
                     .clip(RoundedCornerShape(16.dp))
                     .border(
-                        width = 1.dp,
+                        width = 0.dp,
                         color = Color.Gray.copy(alpha = 0.3f),
                         shape = RoundedCornerShape(20.dp)
                     ),
