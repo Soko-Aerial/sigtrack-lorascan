@@ -187,7 +187,7 @@ class MainActivity : AppCompatActivity(), Logging {
     private val tabInfos = arrayOf(
         TabInfo(
             "Discovery",
-            R.drawable.ic_twotone_settings_applications_24,
+            R.drawable.loupe,
             SettingsFragment()
         ),
         TabInfo(
