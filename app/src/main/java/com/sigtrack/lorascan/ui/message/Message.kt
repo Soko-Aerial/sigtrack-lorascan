@@ -37,6 +37,7 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.AlertDialog
 import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
+import androidx.compose.material.Colors
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.MaterialTheme
@@ -469,12 +470,15 @@ private fun TextInput(
             modifier = Modifier.size(48.dp),
             enabled = enabled,
             shape = CircleShape,
+            colors = ButtonDefaults.buttonColors(
+                backgroundColor = colorResource(id = R.color.appintro_background_color),
+            )
         ) {
             Icon(
                 imageVector = Icons.AutoMirrored.Default.Send,
                 contentDescription = "SIGTRACK",
                 modifier = Modifier.scale(scale = 1.5f),
-                tint = Color.Blue
+                tint = Color.Gray
             )
         }
     }
