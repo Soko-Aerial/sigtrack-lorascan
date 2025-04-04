@@ -251,7 +251,7 @@ class MainActivity : AppCompatActivity(), Logging {
 
         binding.tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
             override fun onTabSelected(tab: TabLayout.Tab?) {
-                val mainTab = tab?.position ?: 3
+                val mainTab = tab?.position ?: 0
                 model.setCurrentTab(mainTab)
             }
             override fun onTabUnselected(tab: TabLayout.Tab?) { }
