@@ -469,12 +469,15 @@ private fun TextInput(
             modifier = Modifier.size(48.dp),
             enabled = enabled,
             shape = CircleShape,
+            colors = ButtonDefaults.buttonColors(
+                backgroundColor = colorResource(id = R.color.appintro_background_color),
+            )
         ) {
             Icon(
                 imageVector = Icons.AutoMirrored.Default.Send,
                 contentDescription = "SIGTRACK",
                 modifier = Modifier.scale(scale = 1.5f),
-                tint = Color.Blue
+                tint = Color.Gray,
             )
         }
     }
