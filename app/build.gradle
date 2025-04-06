@@ -141,6 +141,9 @@ androidComponents {
 
 dependencies {
 
+//    implementation project(':lorascan')
+//    ksp project(':lorascan')
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     def appcompat_version = '1.7.0'
     implementation "androidx.appcompat:appcompat:$appcompat_version"
